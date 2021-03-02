@@ -1,0 +1,12 @@
+apply plugin: 'java'
+
+sourceCompatibility = '15'
+
+repositories {
+	mavenCentral()
+}
+
+dependencies {
+	implementation 'com.rabbitmq:amqp-client:5.11.0'
+}
+
